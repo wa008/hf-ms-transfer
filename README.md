@@ -10,14 +10,13 @@ pip install hf-ms-transfer
 
 ## Usage
 
-1. Create a `.env` file in the directory where you will run the command and add your ModelScope token and username:
+Create a `.env` file in the directory where you will run the command and add your ModelScope [token](https://www.modelscope.cn/my/myaccesstoken) and username:
 ```
 ms_token="your_modelscope_token"
 ms_name="your_modelscope_username"
 ```
-Get [token](https://www.modelscope.cn/my/myaccesstoken) in modelscope
 
-2. Alternatively, you can provide these directly via command-line arguments.
+Alternatively, you can provide these directly via command-line arguments.
 ```bash
 hf-ms-transfer <huggingface_model_id> [--private] [--ms-token <token>] [--ms-name <username>]
 ```

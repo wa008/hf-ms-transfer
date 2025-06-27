@@ -1,5 +1,7 @@
 # Hugging Face to ModelScope Transfer
 
+[简体中文](README_CN.md)
+
 A tool to transfer models from the Hugging Face Hub to the ModelScope platform.
 
 ## Installation

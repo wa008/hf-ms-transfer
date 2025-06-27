@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "hf-ms-transfer"
 version = "0.1.0"
 authors = [
-  { name="Your Name", email="your.email@example.com" },
+  { name="wa008", email="zphu1024@gmail.com" },
 ]
 description = "A tool to transfer models from Hugging Face to ModelScope"
 readme = "README.md"
@@ -23,8 +23,8 @@ dependencies = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/your_username/hf-ms-transfer"
-"Bug Tracker" = "https://github.com/your_username/hf-ms-transfer/issues"
+"Homepage" = "https://github.com/wa008/hf-ms-transfer"
+"Bug Tracker" = "https://github.com/wa008/hf-ms-transfer/issues"
 
 [project.scripts]
 "hf-ms-transfer" = "hf_ms_transfer.__main__:main"

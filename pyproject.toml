@@ -4,11 +4,11 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "hf-ms-transfer"
-version = "0.1.4"
+version = "0.2.0"
 authors = [
   { name="wa008", email="zphu1024@gmail.com" },
 ]
-description = "A tool to transfer models from Hugging Face to ModelScope"
+description = "A tool to transfer models/datasets from Hugging Face to ModelScope"
 readme = "README.md"
 requires-python = ">=3.6"
 classifiers = [
